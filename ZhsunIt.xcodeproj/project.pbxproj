@@ -15,6 +15,7 @@
 		3D12B04615078ECA00243103 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D12B04515078ECA00243103 /* AppDelegate.m */; };
 		3D12B04915078ECA00243103 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D12B04715078ECA00243103 /* MainStoryboard.storyboard */; };
 		3D12B04C15078ECA00243103 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D12B04B15078ECA00243103 /* ViewController.m */; };
+		3D12B05415079D8A00243103 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D12B05315079D8A00243103 /* Default.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +23,16 @@
 		3D12B03515078ECA00243103 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		3D12B03715078ECA00243103 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		3D12B03915078ECA00243103 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		3D12B03D15078ECA00243103 /* ZhsunIt-Info.plist */ = {isa = PBXFileReference; path = "ZhsunIt-Info.plist"; sourceTree = "<group>"; };
+		3D12B03D15078ECA00243103 /* ZhsunIt-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ZhsunIt-Info.plist"; sourceTree = "<group>"; };
 		3D12B03F15078ECA00243103 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3D12B04115078ECA00243103 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		3D12B04315078ECA00243103 /* ZhsunIt-Prefix.pch */ = {isa = PBXFileReference; path = "ZhsunIt-Prefix.pch"; sourceTree = "<group>"; };
-		3D12B04415078ECA00243103 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		3D12B04315078ECA00243103 /* ZhsunIt-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ZhsunIt-Prefix.pch"; sourceTree = "<group>"; };
+		3D12B04415078ECA00243103 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3D12B04515078ECA00243103 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		3D12B04815078ECA00243103 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		3D12B04A15078ECA00243103 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		3D12B04A15078ECA00243103 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		3D12B04B15078ECA00243103 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3D12B05315079D8A00243103 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +52,7 @@
 		3D12B02615078ECA00243103 = {
 			isa = PBXGroup;
 			children = (
+				3D12B05215079D7000243103 /* Image */,
 				3D12B03B15078ECA00243103 /* ZhsunIt */,
 				3D12B03415078ECA00243103 /* Frameworks */,
 				3D12B03215078ECA00243103 /* Products */,
@@ -96,6 +99,14 @@
 				3D12B04315078ECA00243103 /* ZhsunIt-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3D12B05215079D7000243103 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				3D12B05315079D8A00243103 /* Default.png */,
+			);
+			name = Image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,6 +161,7 @@
 			files = (
 				3D12B04015078ECA00243103 /* InfoPlist.strings in Resources */,
 				3D12B04915078ECA00243103 /* MainStoryboard.storyboard in Resources */,
+				3D12B05415079D8A00243103 /* Default.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
