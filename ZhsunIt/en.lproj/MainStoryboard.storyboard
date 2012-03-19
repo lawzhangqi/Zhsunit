@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="1.1" toolsVersion="2182" systemVersion="11D50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="2">
     <dependencies>
+        <deployment defaultVersion="1296" identifier="iOS"/>
         <development defaultVersion="4200" identifier="xcode"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1179"/>
     </dependencies>
@@ -103,18 +104,18 @@
                                 </state>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" cyan="0.37522810218978103" magenta="0.047958485401459854" yellow="0.0" black="0.87810789233576647" alpha="1" colorSpace="custom" customColorSpace="genericCMYKColorSpace"/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="63S-2u-MXS"/>
                 </viewController>
             </objects>
             <point key="canvasLocation" x="117" y="166"/>
         </scene>
-        <!--View Controller - Title-->
+        <!--Notice View Controller - Title-->
         <scene sceneID="v1O-l2-nh4">
             <objects>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0Bx-Za-YVq" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <viewController id="76H-Ep-z2V" sceneMemberID="viewController">
+                <viewController id="76H-Ep-z2V" customClass="NoticeViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="qEy-KZ-FbX">
                         <rect key="frame" x="0.0" y="20" width="320" height="460"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -133,10 +134,29 @@
                                     </navigationItem>
                                 </items>
                             </navigationBar>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="e9S-gR-Fzx">
+                                <rect key="frame" x="89" y="156" width="142" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" size="button"/>
+                                <size key="titleShadowOffset" width="0.0" height="1"/>
+                                <state key="normal" title="最新新闻">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                    <color key="titleShadowColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="NoticeBt:" destination="76H-Ep-z2V" eventType="touchUpInside" id="oRs-Be-lsM"/>
+                                </connections>
+                            </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" title="Title" id="TV7-7d-F2X"/>
+                    <connections>
+                        <outlet property="NoticeBt" destination="e9S-gR-Fzx" id="0Gx-yc-nde"/>
+                    </connections>
                 </viewController>
             </objects>
             <point key="canvasLocation" x="673" y="-563"/>
@@ -231,6 +251,7 @@
                                 <rect key="frame" x="99" y="143" width="137" height="62"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <color key="tintColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
                                 <state key="normal" title="同意">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -267,6 +288,13 @@
         <image name="users_icon&amp;48.png" width="48" height="48"/>
     </resources>
     <classes>
+        <class className="NoticeViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/NoticeViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="NoticeBt:"/>
+                <relationship kind="outlet" name="NoticeBt" candidateClass="UIButton"/>
+            </relationships>
+        </class>
         <class className="ViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/ViewController.h"/>
         </class>
@@ -277,6 +305,6 @@
         <simulatedScreenMetrics key="destination"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="znD-MV-nNF"/>
+        <segue reference="Xlz-d5-8M1"/>
     </inferredMetricsTieBreakers>
 </document>
