@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="1.1" toolsVersion="2182" systemVersion="11D50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="2">
     <dependencies>
-        <deployment defaultVersion="1296" identifier="iOS"/>
         <development defaultVersion="4200" identifier="xcode"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1179"/>
     </dependencies>
@@ -135,7 +134,7 @@
                                 </items>
                             </navigationBar>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="e9S-gR-Fzx">
-                                <rect key="frame" x="89" y="156" width="142" height="42"/>
+                                <rect key="frame" x="89" y="385" width="142" height="42"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" size="button"/>
                                 <size key="titleShadowOffset" width="0.0" height="1"/>
@@ -238,7 +237,7 @@
             </objects>
             <point key="canvasLocation" x="650" y="166"/>
         </scene>
-        <!--View Controller - 考勤信息-->
+        <!--View Controller - 员工考勤-->
         <scene sceneID="Z2V-vv-IF6">
             <objects>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="djS-tY-Ojr" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -266,7 +265,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" title="考勤信息" id="xN0-dx-xCm">
+                    <navigationItem key="navigationItem" title="员工考勤" id="xN0-dx-xCm">
                         <barButtonItem key="leftBarButtonItem" title="返回" id="AEw-fF-AtS">
                             <connections>
                                 <segue destination="2" kind="modal" id="znD-MV-nNF"/>
@@ -305,6 +304,6 @@
         <simulatedScreenMetrics key="destination"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="Xlz-d5-8M1"/>
+        <segue reference="znD-MV-nNF"/>
     </inferredMetricsTieBreakers>
 </document>
