@@ -51,7 +51,7 @@
 
 
 - (IBAction)NoticeBt:(id)sender {
-//[[TKAlertCenter defaultCenter] postAlertWithMessage:@"您的网络好像有问题哦！"];
+
     
  
 
