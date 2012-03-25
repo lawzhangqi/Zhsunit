@@ -8,9 +8,10 @@
 
 #import <UIKit/UIKit.h>
 #import "TKAlertCenter.h"
+#import "MBProgressHUD.h"
 
-@interface NoticeViewController : UIViewController{
-    
+@interface NoticeViewController : UIViewController<MBProgressHUDDelegate>{
+    MBProgressHUD *HUD;
 }
 @property (retain, nonatomic) IBOutlet UIButton *NoticeBt;
 - (IBAction)NoticeBt:(id)sender;
