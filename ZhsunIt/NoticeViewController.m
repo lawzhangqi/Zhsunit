@@ -51,13 +51,27 @@
 
 
 - (IBAction)NoticeBt:(id)sender {
-//[[TKAlertCenter defaultCenter] postAlertWithMessage:@"您的网络好像有问题哦！"];
+    HUD = [[MBProgressHUD alloc] initWithView:self.view];
+	[self.view addSubview:HUD];
     
- 
-
+	HUD.delegate = self;
+	HUD.labelText = @"数据加载中";
+    
+	[HUD showWhileExecuting:@selector(myTask) onTarget:self withObject:nil animated:YES];
+    
 }
 
+- (void)myTask {
+	// Do something usefull in here instead of sleeping ...
+	sleep(3);
+}
 
+- (void)hudWasHidden:(MBProgressHUD *)hud {
+	// Remove HUD from screen when the HUD was hidded
+	[HUD removeFromSuperview];
+	[HUD release];
+	HUD = nil;
+}
 
 
 

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="1.1" toolsVersion="2182" systemVersion="11D50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="2">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="1.0" toolsVersion="1938" systemVersion="11D50d" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="2">
     <dependencies>
+        <deployment defaultVersion="1280" identifier="iOS"/>
         <development defaultVersion="4200" identifier="xcode"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1179"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="933"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
         <scene sceneID="5">
             <objects>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
@@ -43,7 +43,7 @@
                                 <rect key="frame" x="174" y="83" width="95" height="95"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" image="users_icon&amp;48.png">
+                                <state key="normal" image="user.png">
                                     <color key="titleColor" red="0.19607843137254902" green="0.30980392156862746" blue="0.52156862745098043" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -110,7 +110,6 @@
             </objects>
             <point key="canvasLocation" x="117" y="166"/>
         </scene>
-        <!--Notice View Controller - Title-->
         <scene sceneID="v1O-l2-nh4">
             <objects>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0Bx-Za-YVq" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -160,7 +159,6 @@
             </objects>
             <point key="canvasLocation" x="673" y="-563"/>
         </scene>
-        <!--View Controller-->
         <scene sceneID="RrE-AQ-ICH">
             <objects>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jXN-WV-bF8" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -187,12 +185,11 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="hIp-T6-GJQ"/>
+                    <navigationItem key="navigationItem" title="再下一步" id="hIp-T6-GJQ"/>
                 </viewController>
             </objects>
             <point key="canvasLocation" x="1714" y="160"/>
         </scene>
-        <!--View Controller-->
         <scene sceneID="GeF-Gd-e3o">
             <objects>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZuB-3i-Ndt" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -216,7 +213,6 @@
             </objects>
             <point key="canvasLocation" x="2201" y="160"/>
         </scene>
-        <!--Navigation Controller-->
         <scene sceneID="KjX-zc-dlY">
             <objects>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Usg-fa-sA2" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -237,7 +233,6 @@
             </objects>
             <point key="canvasLocation" x="650" y="166"/>
         </scene>
-        <!--View Controller - 员工考勤-->
         <scene sceneID="Z2V-vv-IF6">
             <objects>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="djS-tY-Ojr" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -284,7 +279,7 @@
         <image name="lightbulb_icon&amp;48.png" width="48" height="48"/>
         <image name="net_comp_icon&amp;48.png" width="48" height="48"/>
         <image name="shield_icon&amp;48.png" width="48" height="48"/>
-        <image name="users_icon&amp;48.png" width="48" height="48"/>
+        <image name="user.png" width="95" height="95"/>
     </resources>
     <classes>
         <class className="NoticeViewController" superclassName="UIViewController">
