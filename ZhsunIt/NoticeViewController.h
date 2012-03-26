@@ -1,7 +1,7 @@
 //
 //  NoticeViewController.h
 //  ZhsunIt
-//测试通知模块
+//测试
 //  Created by 琦 章 on 12-3-19.
 //  Copyright (c) 2012年 __MyCompanyName__. All rights reserved.
 //
