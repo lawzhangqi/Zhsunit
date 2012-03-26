@@ -55,7 +55,7 @@
 	[self.view addSubview:HUD];
     
 	HUD.delegate = self;
-	HUD.labelText = @"数据加载中";
+	HUD.labelText = @"数据加载中...";
     
 	[HUD showWhileExecuting:@selector(myTask) onTarget:self withObject:nil animated:YES];
     
