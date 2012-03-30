@@ -102,15 +102,8 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="星享俱乐部" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="Q0M-Fw-hCm">
-                                <rect key="frame" x="184" y="176" width="68" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
-                        <color key="backgroundColor" cyan="0.5216697080291971" magenta="0.43016707897186279" yellow="0.33374201642335766" black="0.020736992359161377" alpha="1" colorSpace="custom" customColorSpace="genericCMYKColorSpace"/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="63S-2u-MXS"/>
                 </viewController>
@@ -291,7 +284,7 @@
         <image name="lightbulb_icon&amp;48.png" width="48" height="48"/>
         <image name="net_comp_icon&amp;48.png" width="48" height="48"/>
         <image name="shield_icon&amp;48.png" width="48" height="48"/>
-        <image name="user.png" width="95" height="95"/>
+        <image name="user.png" width="190" height="190"/>
     </resources>
     <classes>
         <class className="NoticeViewController" superclassName="UIViewController">
