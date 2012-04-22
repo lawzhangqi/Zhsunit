@@ -20,7 +20,8 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    [NSThread sleepForTimeInterval:2.0];
+    [NSThread sleepForTimeInterval:3.0];
+    application.statusBarHidden=NO;
     // Override point for customization after application launch.
     return YES;
 }
