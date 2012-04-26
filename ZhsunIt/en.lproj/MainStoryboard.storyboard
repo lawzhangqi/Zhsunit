@@ -11,7 +11,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
                 <viewController id="2" customClass="ViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="3">
-                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <navigationBar contentMode="scaleToFill" id="INB-K3-EDB">
@@ -116,7 +116,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0Bx-Za-YVq" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="76H-Ep-z2V" customClass="NoticeViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="qEy-KZ-FbX">
-                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="460"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <navigationBar contentMode="scaleToFill" id="fZO-nh-DiL">
@@ -166,7 +166,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jXN-WV-bF8" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="DBp-3q-y7G" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ZeS-jg-tE2">
-                        <rect key="frame" x="0.0" y="64" width="320" height="372"/>
+                        <rect key="frame" x="0.0" y="44" width="320" height="392"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="LWe-C9-AtZ">
@@ -198,7 +198,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZuB-3i-Ndt" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="Scx-UA-o72" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="x00-lZ-bK8">
-                        <rect key="frame" x="0.0" y="64" width="320" height="372"/>
+                        <rect key="frame" x="0.0" y="44" width="320" height="392"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="这是最后一页了哦！" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="O6A-4H-ShV">
@@ -243,7 +243,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="djS-tY-Ojr" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="ufg-Bg-fMD" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="kxI-7B-XJR">
-                        <rect key="frame" x="0.0" y="64" width="320" height="372"/>
+                        <rect key="frame" x="0.0" y="44" width="320" height="392"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="gZ8-AJ-Uxq">
@@ -299,7 +299,7 @@
         </class>
     </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
-        <simulatedStatusBarMetrics key="statusBar"/>
+        <nil key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
         <simulatedScreenMetrics key="destination"/>
     </simulatedMetricsContainer>
